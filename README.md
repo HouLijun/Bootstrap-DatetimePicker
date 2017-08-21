@@ -1,2 +1,2 @@
 # Bootstrap-DatetimePicker
-Bootstrap日历控件
+[http://www.bootcss.com/p/bootstrap-datetimepicker/](http://www.bootcss.com/p/bootstrap-datetimepicker/)

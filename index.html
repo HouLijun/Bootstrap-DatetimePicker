@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Bootstrap日历控件</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" />
+</head>
+<body>
+<div class="container">
+	<form action="" class="form-inline" role="form">
+		<fieldset>
+			<legend>Bootstrap日历控件</legend>
+			<div class="form-group">
+				<label for="yyyy" class="col-md-4 control-label">选择年</label>
+				<div class="input-append date col-md-8 " id="yyyy" data-date="2012" data-date-format="yyyy">
+					<input class="form-control span2" type="text" value="">
+					<span class="add-on"><i class="icon-remove"></i></span>
+					<span class="add-on"><i class="icon-th"></i></span>
+				</div>
+			</div>
+		</fieldset>
+	</form>
+</div>
+
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-datetimepicker.min.js"></script>
+<script src="js/bootstrap-datetimepicker.zh-CN.js"></script>
+<script>
+	$('#yyyy').datetimepicker({
+		language:  'zh-CN',
+        weekStart: 1,
+        todayBtn:  1,
+		autoclose: 1,
+		todayHighlight: 1,
+		startView: 2,
+		minView: 2,
+		forceParse: 0
+	});
+</script>
+</body>
+
+</html>
